@@ -141,7 +141,7 @@ main section {
 }
 
 .footer {
-     background: linear-gradient(to bottom, #F7CC7E 0%, #ff8133 100%);
+    background: linear-gradient(to bottom, #F7CC7E 0%, #ff8133 100%);
     padding: 1px;
     margin-top: 5px;
     text-align: center;
