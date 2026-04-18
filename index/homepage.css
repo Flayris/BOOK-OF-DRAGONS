@@ -176,6 +176,10 @@ main section {
         flex-direction: column;
     }
 
+    .footer a {
+        font-size: 15px;
+    }
+
     .icon {
         display: block;
         padding: 15px;
