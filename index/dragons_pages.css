@@ -203,6 +203,14 @@ ul {
 }
 
 @media (max-width: 450px) {
+    main{
+        margin: 0px;
+    }
+
+    .section {
+        margin: 0px;
+    }
+
     .part_1_content {
         display: flex;
         margin: 0;
@@ -237,16 +245,6 @@ ul {
 
     #menu-toggle:checked + .icon + .menu {
         display: flex;
-    }
-
-    .part_1_content {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-    align-items: left;
-    text-align: left;
-    gap: 20px;
     }
 
 
