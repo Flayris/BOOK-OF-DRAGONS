@@ -66,11 +66,40 @@ main {
     flex: 1 0 auto;
 }
 
-.images {
+h1 {
+    font-size: 35px;
+    color: #901913;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+h3 {
+    font-size: 20px;
+    color: #0c1a87;
+    text-align: left;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 15px;
+    text-align: left;
+}
+
+ul {
+    font-size: 15px;
+    text-align: left;
+}
+
+.part_1_content {
     display: flex;
+    margin: 0;
+    padding: 0;
     flex-direction: row;
+    align-items: left;
+    text-align: left;
     gap: 20px;
-    align-items: center;
 }
 
 .night_fury {
@@ -85,49 +114,32 @@ main {
     text-decoration: none;
 }
 
-h1 {
-    font-size: 40px;
-    color: #881c17;
-    justify-content: space-evenly;
-    margin: 0;
-}
-
-h3 {
-    font-size: 30px;
-    color: #1349a1;
-    justify-content: space-evenly;
-    margin: 0;
-}
-
-p {
-    font-size: 18px;
-    color: #000000;
-    justify-content: space-evenly;
-    margin: 0;
-}
-
-ul {
-    font-size: 18px;
-    color: #000000;
-    justify-content: space-evenly;
-    margin: 0;
-}
-
-.dragon-image {
-    width: 500px;
-    height: auto;
-
-}
-
-.dragon-size {
-    width: 600px;
+.dragon_size {
+    max-width: 1000px;
+    width: 100%;
     height: auto;
 }
 
-.dragon-table {
-    width: 300px;
+.dragon_table {
+    max-width: 350px;
+    width: 100%;
     height: auto;
 }
+
+.dragon {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -176,5 +188,16 @@ ul {
     #menu-toggle:checked + .icon + .menu {
         display: flex;
     }
+
+    .part_1_content {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    gap: 20px;
+    }
+
 
 }
