@@ -169,7 +169,13 @@ main section {
     main {
     flex-direction: column;
     align-items: center;
+    margin: 0;
     }   
+
+    main section {
+        margin: 0px;
+    }
+
 
     .menu {
 		display: none;
