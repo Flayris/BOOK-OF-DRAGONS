@@ -30,37 +30,89 @@
 
         <section class="intro_content">
 
-            <form action="register_academy.html" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+            <section class="academy_img">
+                <img src="../img/academy/Academy_logo.png" alt="ACADEMY" class="logo">
+            </section>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+            <section class="form">
+                    <form action="register_academy.html" method="get">
+                        <div class="form_field">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
 
-                <label for="favourite_dragon_class">Favourite Dragon Class</label>
-                <select id="favourite_dragon_class" name="favourite_dragon_class" required>
-                    <option value="">Select a class</option>
-                    <option value="Strike">STRIKE</option>
-                    <option value="Stoker">STOKER</option>
-                    <option value="Boulder">BOULDER</option>
-                    <option value="Tracker">TRACKER</option>
-                    <option value="Sharp">SHARP</option>
-                    <option value="Tidal">TIDAL</option>
-                    <option value="Mistery">MISTERY</option>
-                </select>
+                        <div class="form_field">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
 
-                <label for="Favourite_dragon">Favourite Dragon?</label>
-                <input type="Favourite_dragon" id="Favourite_dragon" name="Favourite_dragon">
+                        <div class="form_field">
+                            <label for="favourite_dragon_class">Favourite Dragon Class</label>
+                            <select id="favourite_dragon_class" name="favourite_dragon_class" required>
+                                <option value="">Select a class</option>
+                                <option value="Strike">STRIKE</option>
+                                <option value="Stoker">STOKER</option>
+                                <option value="Boulder">BOULDER</option>
+                                <option value="Tracker">TRACKER</option>
+                                <option value="Sharp">SHARP</option>
+                                <option value="Tidal">TIDAL</option>
+                                <option value="Mistery">MISTERY</option>
+                            </select>
+                        </div>
 
-                <label for="What_Island_do_you_come_from">What Island do you come from?</label>
-                <input type="What_Island_do_you_come_from" id="What_Island_do_you_come_from" name="What_Island_do_you_come_from">
+                        
+                        <div class="form_field">
+                            <label for="Favourite_dragon">Favourite Dragon?</label>
+                            <input type="text" id="Favourite_dragon" name="Favourite_dragon">
+                        </div>
+
+                        <div class="form_field">
+                            <label for="What_Island_do_you_come_from">What Island do you come from?</label>
+                            <input type="text" id="What_Island_do_you_come_from" name="What_Island_do_you_come_from">
+                        </div>
+
+                        <div class="form_field">
+                            <p>have you ever ridden a dragon?</p>
+
+                                <div class="radio_label">
+                                    <input type="radio" id="yes" name="proceed" value="yes">    
+                                    <label for="yes">Yes</label>
+                                    <input type="radio" id="no" name="proceed" value="no">
+                                    <label for="no">No</label>
+                                </div>
+
+                        </div>
+
+                        <div class="form_field">
+                            <label for="How_brave_are_you">How brave are you?</label>
+                            <select id="How_brave_are_you" name="How_brave_are_you" required>
+                                <option value="">-</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
 
 
 
-                <button type="submit">Register</button>
-            </form>
+
+                        <button type="submit">Register</button>
+                    </form>
+            </section>
+
+           
+
+
+
+
+
+
 
         </section>
+
+
 
     </main>
     <footer class="footer">
