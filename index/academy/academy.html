@@ -30,13 +30,29 @@
 
         <section class="intro_content">
 
-            <div class="intro_text">
-                <h1>COMING SOON...</h1>
-            </div>
+            <form action="register_academy.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="favourite_dragon_class">Favourite Dragon Class:</label>
+                <select id="favourite_dragon_class" name="favourite_dragon_class" required>
+                    <option value="">Select a class</option>
+                    <option value="Strike">STRIKE</option>
+                    <option value="Stoker">STOKER</option>
+                    <option value="Hideous Zippleback">Hideous Zippleback</option>
+                    <option value="Screaming Death">Screaming Death</option>
+                </select>
+
+                <button type="submit">Register</button>
+            </form>
+
         </section>
 
     </main>
     <footer class="footer">
-        <a href="https://howtotrainyourdragon.fandom.com/wiki/How_to_Train_Your_Dragon_Wiki" target="_blank">&#128009 How to Train Your Dragon Wiki  &#128009</a>
+        <a href="https://howtotrainyourdragon.fandom.com/wiki/How_to_Train_Your_Dragon_Wiki" target="_blank">&#128009; How to Train Your Dragon Wiki  &#128009;</a>
         </footer>
 </body>
